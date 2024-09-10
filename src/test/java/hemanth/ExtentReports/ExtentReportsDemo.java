@@ -24,6 +24,8 @@ public class ExtentReportsDemo {
 
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester", "hemanth M");
+		
+		System.out.print("This is of Master");
 
 	}
 
